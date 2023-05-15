@@ -1,0 +1,67 @@
+.header{
+    padding: 0 5%;
+}
+
+.img-bsas {
+  position: relative;
+}
+
+.oscurecer-img{
+  filter: brightness(50%);
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-40%);
+}  
+
+.btn-send{
+  color:white;
+  background-color:yellowgreen;
+}
+
+.underline {
+  text-decoration: underline dotted;
+}
+
+footer {
+    background: linear-gradient(to right, rgb(29,55,68), rgb(29,82,113));  
+}
+
+#conferencia, #oradores, #lugar, #orador {
+  scroll-margin-top: 100px;
+}
+
+
+@media (max-width: 767px) {
+.img-bsas {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+}
+@media (max-width: 575px) {
+.content{
+  position:static;
+  transform: none;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 0px;
+}
+.content button {
+  color: black;
+}
+.content .btn-outline-light{
+  border-color: black;
+}
+.content .btn-outline-light:hover{
+  color: white;
+  background-color: black;
+}
+}
