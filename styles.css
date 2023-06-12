@@ -26,6 +26,9 @@
   color:white;
   background-color:yellowgreen;
 }
+.btn-send:hover{
+  border: 1px solid black;
+}
 
 .underline {
   text-decoration: underline dotted;
@@ -40,19 +43,12 @@ footer {
 }
 
 
-@media (max-width: 767px) {
-.img-bsas {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-}
 @media (max-width: 575px) {
 .content{
   position:static;
   transform: none;
   margin-top: 20px;
   color: black;
-  margin-bottom: 0px;
 }
 .content button {
   color: black;

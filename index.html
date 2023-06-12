@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary bg-dark" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary bg-dark" data-bs-theme="dark">
     <div class="container-fluid header">
       <a class="navbar-brand" href="#">
         <img src="img/codoacodo.png" alt="Logo" height="75" class="d-inline-block">
@@ -38,7 +38,7 @@
             <a class="nav-link" href="#orador">Conviértete en orador</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link text-success" href="#">Comprar tickets</a>
+            <a class="nav-link text-success" href="tickets.html">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -146,10 +146,13 @@
         <div class="col-md-6 bg-dark text-white">
           <div class="card-body">
             <h5 class="card-title fs-1">Bs As - Octubre</h5>
-            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu
-              es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al
+            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
+              Estados Unidos. Honolulu
+              es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se
+              refiere al
               área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una
-              ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).</p>
+              ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).
+            </p>
             <button type="button" class="btn btn-outline-light">Conocé más</button>
           </div>
         </div>
@@ -176,14 +179,14 @@
           <div class="mb-3">
             <input class="form-control form-control-lg" type="text" placeholder="Sobre qué quieres hablar?">
           </div>
+          <div class="text-start text-secondary small">
+            <p>Recuerda incluir un título para tu charla</p>
+          </div>
+          
+          <div class="d-grid mb-3">
+            <button class="btn btn-send" type="button">Enviar</button>
+          </div>
         </form>
-        <div class="text-start text-secondary small">
-          <p>Recuerda incluir un título para tu charla</p>
-        </div>
-
-        <div class="d-grid mb-3">
-          <button class="btn btn-send" type="button">Enviar</button>
-        </div>
 
       </div>
     </div>
@@ -194,8 +197,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <nav class="nav">
-            <div class="row">
+          <nav class="nav justify-content-center">
+            <div class="row text-center">
               <div class="col">
                 <a class="nav-link text-white" href="#">Preguntas frecuentes</a>
               </div>
